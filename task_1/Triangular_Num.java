@@ -1,6 +1,8 @@
+// 1) Вычислить n-ое треугольного число (сумма чисел от 1 до n), 
+// n! (произведение чисел от 1 до n)
+
 package task_1;
 
- 
 import java.util.Scanner;
 
 public class Triangular_Num {

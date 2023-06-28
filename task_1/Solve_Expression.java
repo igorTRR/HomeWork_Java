@@ -7,11 +7,12 @@ import java.util.Scanner;
  */
 public class Solve_Expression {
 
+   
     public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
-         System.out.println("Введите выражение: ");
-         Scanner scanner;
-        String expression = scanner.nextLine();
+        Scanner scaner = new Scanner(System.in);
+        System.out.println("Введите выражение: ");
+         
+        String expression = scaner.nextLine();
         String[] parts = expression.split("\s*[+=]\s*"); 
 
         int q =-1, w =-1, e =-1;
@@ -29,11 +30,11 @@ public class Solve_Expression {
                 e = Integer.parseInt(parts[2]); 
             } 
             
-            if (parts[0].charAt(i) == "?"){
-                q =i;
+            if (parts[0].charAt(i)){
+                q= i;
             }
 
-            if (parts[1].charAt(i) == "?"){
+            if (parts[1].charAt(i)){
                 w =i;
             }
 

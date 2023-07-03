@@ -3,7 +3,7 @@
 package task_1;
 
 import java.util.Scanner;
-public class Calculator {
+public class Calcul {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             double firstValue, secondValue, result = 0;

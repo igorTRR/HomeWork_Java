@@ -11,7 +11,7 @@ public class Prime_Numbers {
     static List<Integer> numbers = new ArrayList<Integer>();
 
     public static void main(String[] args) {
-    for (int i = 2; i < 100; i++) {
+    for (int i = 2; i < 1000; i++) {
         if(checkPrime(i)){
             numbers.add(i);
         }

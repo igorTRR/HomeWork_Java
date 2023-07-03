@@ -28,7 +28,7 @@ public class Sql {
             if (pair.getKey() == null || pair.getValue() == null)
                 continue;
 
-            result.append(pair.getKey()).append(": ").append(pair.getValue()).append(",-> " );
+            result.append(pair.getKey()).append(": ").append(pair.getValue()).append(", " );
         }
 
         if (result.length()>1 )

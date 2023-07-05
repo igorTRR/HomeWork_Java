@@ -6,13 +6,8 @@ import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.Scanner;
 
-public class Log_Calc {
-    private static File log;
-    private static FileWriter fileWriter;
 
-    /**
-     * @param args
-     */
+    
     public static void main(String[] args) {
         try {
             log = new File("log.txt");

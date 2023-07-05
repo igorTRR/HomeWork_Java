@@ -15,7 +15,7 @@ public class Rand_Max_Min_list {
                 int x = ran.nextInt(N);
                 ar.add(x);
             }
-            System.out.println("Произвольный список целых чисел: \n " + ar);
+            System.out.println("Random целых чисел: \n " + ar);
 
             int min = ar.get(0);
             int max = ar.get(0);
@@ -30,24 +30,20 @@ public class Rand_Max_Min_list {
                 }
                 sum += num;
             }
-           float average = sum / ar.size();
+            float average = sum / ar.size();
             {
-                 for (int i = ar.size() - 1; i >= 0; i--) {
-                int even = ar.get(i) % 2;
-                if (even == 0) {
-                    System.out.println("Четное число:" + ar.get(i));
-                    ar.remove(i);
+                for (int i = ar.size() - 1; i >= 0; i--) {
+                    int even = ar.get(i) % 2;
+                    if (even == 0) {
+                        System.out.println("УДАЛЯЕМ  : " + ar.get(i));
+                        ar.remove(i);
+                    }
                 }
+                System.out.println("ВЫВОД безЧетных Чисел: \n " + ar);
+                System.out.println("Минимальное значение: " + min );
+                System.out.println("Максимальное значение: " + max);
+                System.out.println("Среднее арифметическое значение: " + average);
             }
-            
-            System.out.println("Список с удаленными четными числами: \n " + ar);
-            }
-
-            System.out.println("Минимальное значение: " + min);
-
-            System.out.println("Максимальное значение: " + max);
-
-            System.out.println("Среднее арифметическое значение: " + average);
         }
     }
 }

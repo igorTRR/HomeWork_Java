@@ -1,4 +1,7 @@
 package task_3;
+//     Доп задача
+// Реализовать алгоритм сортировки слиянием
+
 import java.util.Arrays;
 
 public class ArrMergeSort {

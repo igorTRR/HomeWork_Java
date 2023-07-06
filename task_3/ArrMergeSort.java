@@ -1,6 +1,7 @@
+package task_3;
 import java.util.Arrays;
 
-public class ArrayMergSort {
+public class ArrMergeSort {
     public static void main(String[] args) {
         int[] ar = { -2, 44, 0, 3, 65, 1, 99, 32 };
         int[] result = MergeSort(ar);

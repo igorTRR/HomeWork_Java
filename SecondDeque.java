@@ -47,34 +47,34 @@ public class SecondDeque {
 
     public static void main(String[] args) {
 
-        // Создаем очереди
+        // Списки
         Deque<String> d1 = new LinkedList<>(Arrays.asList("3", "1"));
         Deque<String> d2 = new LinkedList<>(Arrays.asList("5", "2"));
         Deque<String> d3 = new LinkedList<>(Arrays.asList("8", "7"));
         Deque<String> d4 = new LinkedList<>(Arrays.asList("4", "-2"));
         System.out.println();
 
-        // Выводим исходные данные
+        // Вывод данных
 
         System.out.println("Deque Fest: " + d1 + ", " + d2);
         System.out.println("Deque Second : " + d3 + ", " + d4);
         System.out.println();
 
-        // Преобразуем очереди в числа типа int и перемножаем числа:
-
-        // Первая пара чисел
+        // Умножаем -выводим
         int num_1 = multD(d1);
         int num_2 = multD(d2);
         int resalt = num_1 * num_2;
         System.out.printf("Multiply: %d * %d = %d\n ", num_1, num_2, resalt);
         System.out.println("--------------------------------------------------------------");
+
+        // Суммируем -выводим
         int num_3 = multD(d3);
         int num_4 = multD(d4);
         int resalt_2 = num_3 + num_4;
         System.out.printf("Sum : %d + %d = %d\n ", num_3, num_4, resalt_2);
 
-        // Запаковываем результаты в списки:
-        System.out.println();
+        
+       
 
     }
 

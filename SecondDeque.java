@@ -72,10 +72,6 @@ public class SecondDeque {
         int num_4 = multD(d4);
         int resalt_2 = num_3 + num_4;
         System.out.printf("Sum : %d + %d = %d\n ", num_3, num_4, resalt_2);
-
-        
-       
-
     }
 
 }

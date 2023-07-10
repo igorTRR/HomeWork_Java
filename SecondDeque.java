@@ -7,19 +7,17 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
-
-
 public class SecondDeque {
-  
- static int multD(Deque<String> arr) {
-        int result=0; 
-        String s;   
 
-        while(arr.size() != 0) {
+    static int multD(Deque<String> arr) {
+        int result = 0;
+        String s;
+
+        while (arr.size() != 0) {
             s = arr.pollFirst();
             if (!s.equals("-")) {
                 result = result + 1 * (Integer.parseInt(s));
-                
+
             } else {
                 result *= -1;
             }
@@ -27,7 +25,6 @@ public class SecondDeque {
         return result;
     }
 
-   
     static public Deque<Integer> sum(Deque<Integer> d1, Deque<Integer> d2) {
         Deque<Integer> result = new ArrayDeque<>();
         int carry = 0;
@@ -47,26 +44,27 @@ public class SecondDeque {
         }
         return result;
     }
+
     public static void main(String[] args) {
 
         // Создаем очереди
-         Deque<String> d1 = new LinkedList<>(Arrays.asList("3","1"));
-         Deque<String> d2 = new LinkedList<>(Arrays.asList("5","2"));
-        Deque<String> d3 = new LinkedList<>(Arrays.asList("8","7"));
-        Deque<String> d4 = new LinkedList<>(Arrays.asList("4","-2"));
+        Deque<String> d1 = new LinkedList<>(Arrays.asList("3", "1"));
+        Deque<String> d2 = new LinkedList<>(Arrays.asList("5", "2"));
+        Deque<String> d3 = new LinkedList<>(Arrays.asList("8", "7"));
+        Deque<String> d4 = new LinkedList<>(Arrays.asList("4", "-2"));
         System.out.println();
 
         // Выводим исходные данные
-      
+
         System.out.println("Deque Fest: " + d1 + ", " + d2);
-        System.out.println("Deque Second : " + d3 + ", " +d4);
+        System.out.println("Deque Second : " + d3 + ", " + d4);
         System.out.println();
 
         // Преобразуем очереди в числа типа int и перемножаем числа:
 
         // Первая пара чисел
-         int num_1 = multD(d1);
-         int num_2 = multD(d2);
+        int num_1 = multD(d1);
+        int num_2 = multD(d2);
         int resalt = num_1 * num_2;
         System.out.printf("Multiply: %d * %d = %d\n ", num_1, num_2, resalt);
         System.out.println("--------------------------------------------------------------");
@@ -75,13 +73,9 @@ public class SecondDeque {
         int resalt_2 = num_3 + num_4;
         System.out.printf("Sum : %d + %d = %d\n ", num_3, num_4, resalt_2);
 
-        //Запаковываем результаты в списки:
+        // Запаковываем результаты в списки:
         System.out.println();
-       
-        
 
-        
-        
     }
-    
+
 }

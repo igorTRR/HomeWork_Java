@@ -1,0 +1,126 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LapTop_1",
+            "request": "launch",
+            "mainClass": "task_6.LapTop_1",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "task7_1",
+            "request": "launch",
+            "mainClass": "task7.task7_1",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "task_6LTop",
+            "request": "launch",
+            "mainClass": "task_6.task_6LTop",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Task_7_1",
+            "request": "launch",
+            "mainClass": "tack7.Task_7_1",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Task_6_1",
+            "request": "launch",
+            "mainClass": "tack6.Task_6_1",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "SecondDeque",
+            "request": "launch",
+            "mainClass": "SecondDeque",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Calcul",
+            "request": "launch",
+            "mainClass": "task_1.Calcul",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Prime_Numbers",
+            "request": "launch",
+            "mainClass": "task_1.Prime_Numbers",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Triangular_Num",
+            "request": "launch",
+            "mainClass": "task_1.Triangular_Num",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Sql",
+            "request": "launch",
+            "mainClass": "task_2.Sql",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "jsons_Str",
+            "request": "launch",
+            "mainClass": "task_2.jsons_Str",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "ArrMergeSort",
+            "request": "launch",
+            "mainClass": "task_3.ArrMergeSort",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "Rand_Max_Min_list",
+            "request": "launch",
+            "mainClass": "task_3.Rand_Max_Min_list",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "EmploList",
+            "request": "launch",
+            "mainClass": "task_5.EmploList",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "PhoneBook",
+            "request": "launch",
+            "mainClass": "task_5.PhoneBook",
+            "projectName": "Home Work_Java_c046e19"
+        },
+        {
+            "type": "java",
+            "name": "L_Top",
+            "request": "launch",
+            "mainClass": "task_6.L_Top",
+            "projectName": "Home Work_Java_c046e19"
+        }
+    ]
+}
